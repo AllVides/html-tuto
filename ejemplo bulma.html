@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="Tutorial de HTML para IPC1">
         <title>Tuto HTML</title>
-        <link rel="stylesheet" type="text/css" href="static/style.css">
+        <link rel="stylesheet" type="text/css" href="static/style2.css">
     </head>
 
     <!-- esto es un comentario  -->
@@ -29,7 +29,7 @@
           </form>
 
         <!--titulos y links-->
-        <div class="titulos">
+        <div class="title">
             <h1><a href="css-ejemplo.html"> hola esto es una referencia</a>
 
             </h1>
@@ -41,6 +41,7 @@
 
         </div>
         <!-- ejemplo de un div modificado con una clase y un boton-->
+        <div class="content">
         <div class="parrafo">
             <p>hola esto es un parrafo y esto es un <br>
                 salto de linea 
@@ -48,18 +49,20 @@
             <p><u>tachado </u> espacio <b>negrita</b> espacion <s>tachado</s> <i>cursiva</i></p>
             <a class="button is-large is-danger">hola</a>
         </div>
+        
+            <ul>
+                <li class="cajita">pocos</li>
+                <li href="hola">muchos</li>
+            </ul>
+    
+            <ol>
+                <li>uno</li>
+                <li>dos</li>
+            </ol>
+        </div>
+        
 
-        <ul>
-            <li class="cajita">pocos</li>
-            <li href="hola">muchos</li>
-        </ul>
-
-        <ol>
-            <li>uno</li>
-            <li>dos</li>
-        </ol>
-
-        <table>
+        <table class="table">
             <thead>
                 <tr>
                     <th class="cajita">first data field</th>
@@ -74,7 +77,7 @@
             </tbody>
         </table>
 
-        <table border="1">
+        <table class="table is-bordered">
             <thead>
                 <tr>
                     <th>Column heading 1</th>

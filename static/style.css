@@ -6,11 +6,32 @@ h1:hover {
     color:blue;
 }
 
+h1:first-letter {
+  font-size: xx-small;
+  color: green;
+}
+
+
+p  {
+  background: brown;
+  color: white;
+}
+
+.parrafo {
+  padding: 10px;
+  color: red;
+  background-image: "img/iguana.png"
+}
+
+.cajita {
+  background-color: aqua;
+}
+
 #title {
     color : green;
 }
 
-[hola] {
+[href] {
     color: purple;
 }
 .outer {
